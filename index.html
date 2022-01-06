@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+/*div_tong*/
+		#div_tong{
+			/*background: pink;*/
+			width: 100%;
+			height: 700px;
+			}
+				#con_sua{
+				background: black;
+				width: 20%;
+				height: 100%;
+				float: left;
+				position: relative;
+				}
+				#vien_mau{
+				/*background: red;*/
+				width: 5%;
+				height: 100%;
+				float: left;
+				}
+/*div_to*/
+	#div_to{
+		/*background: red;*/
+		width: 75%;
+		height: 100%;
+		float: left;
+		}
+/*nền*/
+		#div_to>.nen{
+		background-image: url(IMAGE/sua1.gif);
+		width: 100%;
+		height: 100%;
+		float: left;
+		background-repeat: no-repeat;
+		background-position: center;
+		}
+			#div_to>.nen>.anh{
+			/*background:  red;*/
+			width: 15%;
+			height: 100%;
+			float: right;
+			position: fixed;
+			}
+				
+			#div_to>.nen>.a1{
+			/*background:  pink;*/
+			width: 70%;
+			height: 100%;
+			float: left;
+			}
+				#div_to>.nen>.a1>.a2{
+				background:  #00FF99;
+				width: 80%;
+				height: 70%;
+				float: right;
+				}
+				
+	</style>
+</head>
+<body>
+	<div id="div_tong">
+<!-- con_sua -->
+		<div id="con_sua">
+			<img src="IMAGE/sanho.gif" width="120%" height="100%" style="position: absolute; z-index: 10;">
+		</div>
+<!-- vien_mau -->
+		<div id="vien_mau">
+			<img src="IMAGE/soc.jpg" width="100%" height="100%">
+		</div>
+<!-- div_to -->
+		<div id="div_to">
+			<div class="nen">
+<!-- ảnh -->
+		<div class="anh" style="right: 10px;top: 1px; z-index: 99;">
+			<img src="IMAGE/nhom1a.jpg">
+			<img src="IMAGE/nhom1b.jpg">
+			<img src="IMAGE/nhom1c.jpg">
+			<img src="IMAGE/nhom1d.jpg">				
+		</div>
+<!-- form,table -->
+			<div class="a1">
+				<h1 style="color:#FF6633;" align="center" >THAM GIA CLB</h1>
+				<p align="center">Quý độc giả hãy điền đầy đủ thông tin để tham gia phát triển Câu lạc bộ<br> ngày càng vững mạnh hơn.</p>
+
+					<div class="a2">
+						<form>
+							<table align="center">
+								<tr>
+									<td align="right">Họ và tên : </td>
+									<td><input type="Text"style="width: 150px";>*</td>			
+								</tr>
+								<tr>
+									<td align="right">Địa chỉ : </td>
+									<td><input type="Text" style="width: 250px;">*</td>
+								</tr>
+								<tr>
+									<td align="right">Email : </td>
+									<td><input type="email" style="width: 150px";>*</td>
+								</tr>
+								<tr>
+									<td align="right">Điện thoại : </td>
+									<td><input type="number" style="width: 130px";>*</td>
+								</tr> 
+								<tr>
+									<td align="right">Ngày sinh : </td>
+									<td><input type="number" style="width: 40px";>/
+										<input type="number" style="width: 40px";>/
+										<input type="number" style="width: 50px";>*</td>
+								</tr>
+								<tr>
+									<td align="right">Đề tài : </td>
+									<td>
+										<select>
+											<option>Tìm hiểu Sứa biển</option>
+											<option>Tìm hiểu Sứa biển</option>
+											<option>Tìm hiểu Sứa biển</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td>Nhóm :</td>
+									<td>
+										<input type="radio"name="a1">Ngiên cứu<br>
+										<input type="radio"name="a1">Hải ngư<br>
+										<input type="radio"name="a1">Viễn dương<br>
+										<input type="radio"name="a1">Mỹ thuật<br>
+										<input type="radio"name="a1">Thực phẩm<br>
+										<input type="radio" name="a1">Sinh viên
+									</td>
+								</tr>
+								<tr>
+									<td>Gửi hình :</td>
+									<td><input type="file" name="" accept="image/png, image/gif, image/jpeg"></td>
+								</tr>
+								<tr>
+									<td>Tài liệu :</td>
+									<td>
+										<input type="checkbox"name="a2">Sinh vật Biển<br>
+										<input type="checkbox"name="a2">Các loài Sứa biển<br>
+										<input type="checkbox"name="a2">San hô<br>
+										<input type="checkbox"name="a2">Môi trường Biển<br>
+										<input type="checkbox"name="a2">Khí hậu
+									</td>
+								</tr>
+								<tr>
+									<td align="center">
+										<button type="submid">Tham gia</button>
+									</td>
+									<td align="center">
+										<button type="reset">Xóa thông tin</button>
+									</td>
+								</tr>
+							</table>
+						</form>						
+					</div>
+			</div>	
+			
+			</div>	
+		</div>
+
+		</div>
+	</div>
+</body>
+</html>
